@@ -264,7 +264,7 @@ const achievementSection = {
     {
       title: "Published Researcher",
       subtitle: "Co-authored research paper titled 'Binary Opinion Dynamics With Mesophilic Agents' presented at the 2023 Annual Modeling and Simulation Conference (ANNSIM).",
-      image: require("./assets/images/annsimLogo.webp"), // Replace with the ANNSIM or relevant logo or a representation of your research
+      image: require("./assets/images/annsimLogo.png"), // Replace with the ANNSIM or relevant logo or a representation of your research
       imageAlt: "ANNSIM Logo", // Update this if you're using a different logo
       footerLink: [
         {
