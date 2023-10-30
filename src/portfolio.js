@@ -49,11 +49,11 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡  Craft scalable cloud-based solutions using AWS, enhancing both backend and frontend user experiences"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Develop dynamic web applications with ReactJS and .NET, making ideas come alive on screen"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Deploy ML models with Python and TensorFlow, driving smarter insights and user interactions"
     )
   ],
 
@@ -62,56 +62,56 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "go",
+      fontAwesomeClassname: "fab fa-golang" 
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "c-sharp",
+      fontAwesomeClassname: "fab fa-cuttlefish"  // Again, might need a more representative icon for C#.
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: ".NET",
+      fontAwesomeClassname: "fab fa-dotnet"
+    },
+    {
+      skillName: "tensorflow",
+      fontAwesomeClassname: "fas fa-brain"  // Note: Using a generic "brain" icon to represent ML/TensorFlow.
+    },
+    {
+      skillName: "pandas",
+      fontAwesomeClassname: "fas fa-paw"  // Note: This is just a playful representation using a "paw" for "pandas". Might need a custom icon.
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -123,31 +123,34 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Berea College",
+      logo: require("./assets/images/bereaCollegeLogo.png"),  // You'll need to change the path to the actual Berea College logo.
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+      duration: "January 2021 - May 2024",
+      desc: "Recipient of a full-ride scholarship worth $230,000.",
+      descBullets: [
+        "Recognized as an Epsilon Pi Tau scholar.",
+        "Achieved Dean's List honors every semester."
+      ]
+    },    
+    {
+      schoolName: "CodePath",
+      logo: require("./assets/images/codepathLogo.jpeg"),  // You'll need to change the path to the actual CodePath logo.
+      subHeader: "Software Engineering Course",
+      duration: "May 2022 - Aug 2022",  // Replace with the actual dates.
+      desc: "Participated in an intensive software engineering course, gaining hands-on experience in various aspects of development.",
+      descBullets: [
+        "Deepened understanding of software development practices and methodologies.",
+        "Collaborated on real-world projects, further enhancing practical skills."
+      ]
+    }    
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
