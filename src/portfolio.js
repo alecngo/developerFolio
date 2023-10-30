@@ -71,7 +71,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "c-sharp",
-      fontAwesomeClassname: "fab fa-cuttlefish"  // Again, might need a more representative icon for C#.
+      fontAwesomeClassname: "fab fa-cuttlefish"  
     },
     {
       skillName: "sql-database",
@@ -135,7 +135,7 @@ const educationInfo = {
     },    
     {
       schoolName: "CodePath",
-      logo: require("./assets/images/codepathLogo.jpeg"),  // You'll need to change the path to the actual CodePath logo.
+      logo: require("./assets/images/codepathLogo.png"),  // You'll need to change the path to the actual CodePath logo.
       subHeader: "Software Engineering Course",
       duration: "May 2022 - Aug 2022",  // Replace with the actual dates.
       desc: "Participated in an intensive software engineering course, gaining hands-on experience in various aspects of development.",
@@ -174,29 +174,38 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer Intern",
+      company: "Amazon Web Services (AWS)",
+      companylogo: require("./assets/images/awsLogo.png"),
+      date: "May 2023 – August 2023",
+      desc: "Implemented scalable AWS solutions and facilitated data-driven decisions through robust monitoring and alerting.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Implemented a scalable AWS SSM Agent metrics system in Golang, enhancing troubleshooting efficiency via AWS CloudWatch Metrics Console.",
+        "Streamlined AWS SSM Agent setup process by implementing three new commands, reducing configuration steps by 90%."
+      ]
+    },    
+    {
+      role: "Data Analyst",
+      company: "Berea College, The Office of Sustainability",
+      companylogo: require("./assets/images/bereaLogo.png"), // Update the path to Berea College's logo
+      date: "August 2022 – May 2023",
+      desc: "Leveraged Python and other tools to rectify discrepancies in Greenhouse Gas Inventory data and developed visual tools for sustainability initiatives.",
+      descBullets: [
+        "Used Python, Jupyter Notebook, and GPT API to refine automation processes ensuring data accuracy in Greenhouse Gas Inventory data.",
+        "Constructed an interactive sustainability dashboard with Power BI, enhancing campus sustainability programs."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Research Assistant",
+      company: "Berea College", // Or specify the department or lab if needed
+      companylogo: require("./assets/images/bereaLogo.png"), // Update the path to Berea College's logo or the specific department/lab logo
+      date: "May 2022 – Aug 2022", // Fill in the appropriate start and end dates
+      desc: "Developed applications to generate significant time series datasets for network variations and optimized research tools integration.",
+      descBullets: [
+        "Maintained and developed 3 applications using OOP, generating 40k+ time series datasets of network variation under various possibilities.",
+        "Accelerated research progress by a month through the integration of Data Manipulation and Visualization tools like Jupyter Notebook, Pandas, NumPy, Matplotlib, and Seaborn.",
+        "Assisted the lead researcher in writing scientific publications and implemented statistical tests like A/B and Granger Causality."
+      ]
     }
   ]
 };
@@ -212,32 +221,33 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "MY PLAYGROUND TO ENJOY MY FREETIME WITH FRIENDS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/pawsibleHopeLogo.png"), // Update the path to PawsibleHope's logo
+      projectName: "Pawsible Hope - A gift to my dear rescue Stella",
+      projectDesc: "A web application designed to help customers discover nearby rescue pets by entering their zip code, providing robust filtering options to find the perfect match.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit GitHub",
+          url: "https://github.com/alecngo/rescue-dev-frontend" // Update this with the actual URL if different
         }
-        //  you can add extra buttons here.
+        // you can add extra buttons here if needed.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/intelliDriveLogo.png"), // Update the path to the IntelliDrive Drowsiness Detector's logo
+      projectName: "IntelliDrive Drowsiness Detector",
+      projectDesc: "A hardware-integrated ML system that leverages CNNs and OpenCV, utilizing a camera, Arduino circuitry, LED, and speaker for real-time drowsiness detection and immediate alerts to ensure driver safety.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit GitHub",
+          url: "https://github.com/alecngo/intellidrive-drowsiness-detector" // Update this with the actual URL if different
         }
+        // you can add extra buttons here if needed.
       ]
-    }
+    }    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -246,60 +256,28 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Pubication 🏆 "),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "Published Researcher",
+      subtitle: "Co-authored research paper titled 'Binary Opinion Dynamics With Mesophilic Agents' presented at the 2023 Annual Modeling and Simulation Conference (ANNSIM).",
+      image: require("./assets/images/annsimLogo.webp"), // Replace with the ANNSIM or relevant logo or a representation of your research
+      imageAlt: "ANNSIM Logo", // Update this if you're using a different logo
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Research Paper",
+          url: "https://www.computer.org/csdl/proceedings-article/annsim/2023/10155395/1OidsBTrv4k" // Replace this with the link to your publication, if available online
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          name: "ANNSIM Conference",
+          url: "https://annsimconference.org" // Replace with the actual URL of the conference, if different
         },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        // you can add extra links here if needed.
       ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
-  ],
+    }],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -324,7 +302,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +321,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,25 +334,25 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1 (859) 302-4296",
+  email_address: "alecngo.coding@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
