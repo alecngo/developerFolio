@@ -178,34 +178,21 @@ const workExperiences = {
       company: "Amazon Web Services (AWS)",
       companylogo: require("./assets/images/awsLogo.png"),
       date: "May 2023 – August 2023",
-      desc: "Implemented scalable AWS solutions and facilitated data-driven decisions through robust monitoring and alerting.",
-      descBullets: [
-        "Implemented a scalable AWS SSM Agent metrics system in Golang, enhancing troubleshooting efficiency via AWS CloudWatch Metrics Console.",
-        "Streamlined AWS SSM Agent setup process by implementing three new commands, reducing configuration steps by 90%."
-      ]
+      desc: "Implemented a scalable AWS SSM Agent metrics system in Golang, boosting troubleshooting efficiency. Additionally, streamlined the AWS SSM Agent setup, reducing configuration steps by 90%."
     },    
     {
       role: "Data Analyst",
       company: "Berea College, The Office of Sustainability",
       companylogo: require("./assets/images/bereaLogo.png"), // Update the path to Berea College's logo
       date: "August 2022 – May 2023",
-      desc: "Leveraged Python and other tools to rectify discrepancies in Greenhouse Gas Inventory data and developed visual tools for sustainability initiatives.",
-      descBullets: [
-        "Used Python, Jupyter Notebook, and GPT API to refine automation processes ensuring data accuracy in Greenhouse Gas Inventory data.",
-        "Constructed an interactive sustainability dashboard with Power BI, enhancing campus sustainability programs."
-      ]
+      desc: "Utilized Python, Jupyter Notebook, and GPT API to enhance Greenhouse Gas Inventory data accuracy and constructed an interactive sustainability dashboard using Power BI."
     },
     {
       role: "Research Assistant",
       company: "Berea College", // Or specify the department or lab if needed
       companylogo: require("./assets/images/bereaLogo.png"), // Update the path to Berea College's logo or the specific department/lab logo
       date: "May 2022 – Aug 2022", // Fill in the appropriate start and end dates
-      desc: "Developed applications to generate significant time series datasets for network variations and optimized research tools integration.",
-      descBullets: [
-        "Maintained and developed 3 applications using OOP, generating 40k+ time series datasets of network variation under various possibilities.",
-        "Accelerated research progress by a month through the integration of Data Manipulation and Visualization tools like Jupyter Notebook, Pandas, NumPy, Matplotlib, and Seaborn.",
-        "Assisted the lead researcher in writing scientific publications and implemented statistical tests like A/B and Granger Causality."
-      ]
+      desc: "Developed applications with OOP to generate 40k+ time series datasets, enhancing research velocity through integrated data tools such as Jupyter and Pandas. Contributed to scientific publications and employed statistical tests including A/B and Granger Causality."
     }
   ]
 };
@@ -275,8 +262,10 @@ const achievementSection = {
           name: "ANNSIM Conference",
           url: "https://annsimconference.org" // Replace with the actual URL of the conference, if different
         },
-        // you can add extra links here if needed.
-      ]
+        {
+          name: "Tapia Conference Presentation",
+          url: "https://drive.google.com/file/d/1RPXig-C-t1zG4KmJkKLRNazezz5kEB4I/view?usp=sharing" // Replace with the actual URL of the conference, if different
+        },      ]
     }],
   display: true // Set false to hide this section, defaults to true
 };
