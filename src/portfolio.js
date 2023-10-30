@@ -49,11 +49,14 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡  Craft scalable cloud-based solutions using AWS, enhancing both backend and frontend user experiences"
+      "⚡  Programming Languages: Python, Go, Java, JavaScript, C#, C++, SQL, HTML/CSS"
     ),
-    emoji("⚡ Develop dynamic web applications with ReactJS and .NET, making ideas come alive on screen"),
+    emoji("⚡ Frameworks: React, .NET, Bootstrap, Numpy, Pandas, Sklearn, Tensorflow, Matplotlib, Seaborn"),
     emoji(
-      "⚡ Deploy ML models with Python and TensorFlow, driving smarter insights and user interactions"
+      "⚡ Technologies: Operating Systems (Linux, MacOS, Windows), APIs, Git/GitHub, Agile/Scrum Methodology, CI/CD"
+    ),
+    emoji(
+      "⚡ Cloud Services: AWS EC2, AWS Systems Manager, AWS CloudWatch, AWS S3, Azure"
     )
   ],
 
@@ -182,7 +185,7 @@ const workExperiences = {
     },    
     {
       role: "Data Analyst",
-      company: "Berea College, The Office of Sustainability",
+      company: "Berea College, Office of Sustainability",
       companylogo: require("./assets/images/bereaLogo.png"), // Update the path to Berea College's logo
       date: "August 2022 – May 2023",
       desc: "Utilized Python, Jupyter Notebook, and GPT API to enhance Greenhouse Gas Inventory data accuracy and constructed an interactive sustainability dashboard using Power BI."
@@ -192,7 +195,7 @@ const workExperiences = {
       company: "Berea College", // Or specify the department or lab if needed
       companylogo: require("./assets/images/bereaLogo.png"), // Update the path to Berea College's logo or the specific department/lab logo
       date: "May 2022 – Aug 2022", // Fill in the appropriate start and end dates
-      desc: "Developed applications with OOP to generate 40k+ time series datasets, enhancing research velocity through integrated data tools such as Jupyter and Pandas. Contributed to scientific publications and employed statistical tests including A/B and Granger Causality."
+      desc: "Developed Python packages to generate 40k+ time series datasets on Network Simulation, enhancing research velocity through integrated data tools such as Jupyter and Pandas. Employed statistical tests including A/B and Granger Causality."
     }
   ]
 };
@@ -243,9 +246,9 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Pubication 🏆 "),
+  title: emoji("Achievements 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Publications, and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
