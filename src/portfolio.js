@@ -23,7 +23,7 @@ const greeting = {
   username: "Alec Ngo",
   title: "Hi all, I'm Alec",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Open-Source applications with GoLang / React / .Net / AWS and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Engineer 🚀 having an experience of building Web and Open-Source applications with GoLang / React / .Net / AWS and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1UkOmu6eNjYsZiPEjKGvUqFqJB7CI7nMb/view?usp=sharing", // Set to empty to hide the button
