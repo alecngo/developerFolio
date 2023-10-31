@@ -73,7 +73,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "c-sharp",
+      skillName: "c#",
       fontAwesomeClassname: "fab fa-cuttlefish"  
     },
     {
@@ -81,7 +81,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "JavaScript",
+      skillName: "javascript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
@@ -93,7 +93,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: ".NET",
+      skillName: ".net",
       fontAwesomeClassname: "fab fa-dotnet"
     },
     {
