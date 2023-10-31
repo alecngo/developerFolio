@@ -53,7 +53,7 @@ const skillsSection = {
     ),
     emoji("⚡ Frameworks: React, .NET, Bootstrap, Numpy, Pandas, Sklearn, Tensorflow, Matplotlib, Seaborn"),
     emoji(
-      "⚡ Technologies: Operating Systems (Linux, MacOS, Windows), APIs, Git/GitHub, Agile/Scrum Methodology, CI/CD"
+      "⚡ Technologies: Linux/Unix, APIs, Git/GitHub, Agile/Scrum Methodology, CI/CD"
     ),
     emoji(
       "⚡ Cloud Services: AWS EC2, AWS Systems Manager, AWS CloudWatch, AWS S3, Azure"
