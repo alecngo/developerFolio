@@ -221,7 +221,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit GitHub",
-          url: "https://github.com/alecngo/rescue-dev-frontend" // Update this with the actual URL if different
+          url: "https://github.com/alecngo/PawsibleRepos" // Update this with the actual URL if different
         }
         // you can add extra buttons here if needed.
       ]
