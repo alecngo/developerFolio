@@ -23,7 +23,7 @@ const greeting = {
   username: "Alec Ngo",
   title: "Hi all, I'm Alec",
   subTitle: emoji(
-    "A passionate Full Stack Software Engineer 🚀 having an experience of building Web and Open-Source applications with GoLang / React / .Net / AWS and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Engineer 🚀 having an experience of building Web and Open-Source applications with Python / GoLang / MongoDB / ReactJs / Docker / AWS and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1UkOmu6eNjYsZiPEjKGvUqFqJB7CI7nMb/view?usp=sharing", // Set to empty to hide the button
@@ -49,11 +49,11 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡  Programming Languages: Python, Go, Java, JavaScript, C#, C++, SQL, HTML/CSS"
+      "⚡  Programming Languages: Python, Go, Java, JavaScript, C#, C++, SQL, NoSQL, HTML/CSS"
     ),
-    emoji("⚡ Frameworks: React, .NET, Bootstrap, Numpy, Pandas, Sklearn, Tensorflow, Matplotlib, Seaborn"),
+    emoji("⚡ Frameworks: Flask, React, .NET, Bootstrap, Numpy, Pandas, Sklearn, Tensorflow, Matplotlib, Seaborn"),
     emoji(
-      "⚡ Technologies: Linux/Unix, APIs, Git/GitHub, Agile/Scrum Methodology, CI/CD"
+      "⚡ Technologies: Linux/Unix, APIs, Git/GitHub, CI/CD, MongoDB, Docker, Redis"
     ),
     emoji(
       "⚡ Cloud Services: AWS EC2, AWS Systems Manager, AWS CloudWatch, AWS S3, Azure"
@@ -71,6 +71,14 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "flask",
+      fontAwesomeClassname: "fas fa-pepper-hot"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
     },
     {
       skillName: "c#",
