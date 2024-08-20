@@ -23,10 +23,10 @@ const greeting = {
   username: "Alec Ngo",
   title: "Hi all, I'm Alec",
   subTitle: emoji(
-    "A passionate Full Stack Software Engineer 🚀 having an experience of building Web and Open-Source applications with Python / GoLang / MongoDB / ReactJs / Docker / AWS and some other cool libraries and frameworks."
+    "A dedicated Full Stack Software Engineer 🚀 with experience in building high-impact Web and Open-Source applications using Python, GoLang, MongoDB, ReactJs, Docker, and AWS. I have a proven track record of significantly improving performance and operational efficiency at top tech companies like Adobe and AWS through innovative back-end systems and optimized cloud infrastructure."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1UkOmu6eNjYsZiPEjKGvUqFqJB7CI7nMb/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/14pTTdrVbTuKY2-hn1i6F679cLdZUXae7/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -36,7 +36,6 @@ const socialMediaLinks = {
   github: "https://github.com/alecngo",
   linkedin: "https://www.linkedin.com/in/alecngo/",
   gmail: "alecngo.coding@gmail.com",
-  instagram: "https://www.instagram.com/alecngo/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -184,6 +183,13 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Software Engineer Intern",
+      company: "Adobe Inc.",
+      companylogo: require("./assets/images/adobeLogo.png"),
+      date: "May 2024 – August 2024",
+      desc: "Developed a Golang executable that accelerated ML model download speeds from 0.67Gbps to 10Gbps, significantly enhancing data accessibility. Also, engineered a custom Git LFS transfer agent and a model registry using Flask and React to efficiently manage and deploy over 1000 models."
+    },    
     {
       role: "Software Engineer Intern",
       company: "Amazon Web Services (AWS)",
