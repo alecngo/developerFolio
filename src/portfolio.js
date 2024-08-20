@@ -282,10 +282,27 @@ const achievementSection = {
         {
           name: "Tapia Conference Presentation",
           url: "https://drive.google.com/file/d/1RPXig-C-t1zG4KmJkKLRNazezz5kEB4I/view?usp=sharing" // Replace with the actual URL of the conference, if different
-        },      ]
-    }],
+        }
+      ]
+    },
+    {
+      title: "Ballard McConnell Willis Mathematics Scholarship",
+      subtitle: "Awarded the exclusive $20,000 Ballard McConnell Willis Mathematics Scholarship for exceptional academic performance in mathematics.",
+      image: require("./assets/images/bereaLogo.png"), // Replace with the BMW Scholarship logo or a representation of your achievement
+      imageAlt: "BMW Scholarship Logo", // Update this if you're using a different logo
+      footerLink: [] // Add links if available or leave as is
+    },
+    {
+      title: "Epsilon Pi Tau Honor Society",
+      subtitle: "Inducted into the Epsilon Pi Tau Honor Society, recognizing academic excellence and leadership in technology.",
+      image: require("./assets/images/eptLogo.jpg"), // Replace with the Epsilon Pi Tau logo or a representation of your achievement
+      imageAlt: "Epsilon Pi Tau Logo", // Update this if you're using a different logo
+      footerLink: [] // Add links if available or leave as is
+    }
+  ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Blogs Section
 
